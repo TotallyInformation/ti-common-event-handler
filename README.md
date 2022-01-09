@@ -40,6 +40,7 @@ See the [EventEmitter2](https://github.com/EventEmitter2/EventEmitter2) node for
 
 * [node-red-contrib-uibuilder](https://github.com/TotallyInformation/node-red-contrib-uibuilder)
 * [node-red-contrib-events](https://github.com/TotallyInformation/node-red-contrib-events)
+* [node-red-contrib-drayton-wiser](https://github.com/TotallyInformation/node-red-contrib-drayton-wiser)
 
 ## Dependencies
 
