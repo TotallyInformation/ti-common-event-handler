@@ -22,8 +22,9 @@ const aDataVar = {
 
 tiEvents.emit('my-event-name', aDataVar)
 
-tiEvents.on('my-event-name', (data) => {
-    console.log('My data: ', data)
+// NB: Don't use arrow functions if you want to be able to access event name
+tiEvents.on('my-event-name', function(data) {
+    console.log(`Event ${this.event} triggered: `, data)
 })
 ```
 
