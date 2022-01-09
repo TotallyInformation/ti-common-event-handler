@@ -30,11 +30,11 @@ tiEvents.on('my-event-name', function(data) {
 
 ## Event name wildcards
 
-`*` and `**` can be used as wildcards when creating event listeners.
+`*` and `**` can be used as wildcards when creating event listeners. `**` will look down all sub-namespaces.
 
 `/` is pre-configured as the namespace separator so as to match the equivalent in MQTT topics.
 
-See the EventEmitter2 node for details.
+See the [EventEmitter2](https://github.com/EventEmitter2/EventEmitter2) node for details.
 
 ## Current usage
 
