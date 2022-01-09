@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2021 Julian Knight (Totally Information)
+ * Copyright (c) 2021-2022 Julian Knight (Totally Information)
  * https://it.knightnet.org.uk, https://github.com/TotallyInformation/ti-common-event-handler
  *
  * Licensed under the Apache License, Version 2.0 (the 'License');
@@ -27,6 +27,9 @@ var tiEventManager = new EventEmitter2({
     wildcard: true,
     // the delimiter used to segment namespaces
     delimiter: '/',
+    // emit listener add/remove events
+    newListener: true,
+    removeListener: true,
 })
 
 module.exports = tiEventManager
