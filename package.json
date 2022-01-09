@@ -1,6 +1,6 @@
 {
   "name": "@totallyinformation/ti-common-event-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A common, shared event handler used across multiple TotallyInformation packages. Implemented as a singleton class.",
   "main": "ti-events.js",
   "scripts": {
