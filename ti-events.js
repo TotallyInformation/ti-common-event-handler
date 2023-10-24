@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2021 Julian Knight (Totally Information)
+ * Copyright (c) 2021-2023 Julian Knight (Totally Information)
  * https://it.knightnet.org.uk, https://github.com/TotallyInformation/ti-common-event-handler
  *
  * Licensed under the Apache License, Version 2.0 (the 'License');
@@ -16,13 +16,14 @@
  **/
 'use strict'
 
-const EventEmitter2 = require('eventemitter2')
+const EventEmitter2 = require('eventemitter2') // https://github.com/EventEmitter2/EventEmitter2
 
 /** Singleton model. Only 1 instance of tiEventManager should ever exist.
  * Use as: `const tiEvents = require('@totallyinformation/ti-common-event-handler')`
  */
 
-var tiEventManager = new EventEmitter2({
+// @ts-ignore
+const tiEventManager = new EventEmitter2({
     // set this to `true` to use wildcards
     wildcard: true,
     // the delimiter used to segment namespaces
@@ -31,4 +32,4 @@ var tiEventManager = new EventEmitter2({
 
 module.exports = tiEventManager
 
-//EOF
+// EOF

@@ -1,6 +1,6 @@
 {
   "name": "@totallyinformation/ti-common-event-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A common, shared event handler used across multiple TotallyInformation packages. Implemented as a singleton class.",
   "main": "ti-events.js",
   "scripts": {
@@ -9,13 +9,16 @@
     "publish": "publish"
   },
   "devDependencies": {
-    "@types/node": "^14.17.15",
-    "eslint": "^7.32.0",
+    "@types/node": "^14.18.29",
+    "eslint": "^8.52.0",
+    "eslint-config-standard": "^17.1.0",
     "eslint-plugin-es": "^4.1.0",
-    "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-jsdoc": "^36.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^46.4.2",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-sonarjs": "^0",
     "execa": "^5.1.1",
     "gulp": "^4.0.2",
     "gulp-changed": "^4.0.3",
