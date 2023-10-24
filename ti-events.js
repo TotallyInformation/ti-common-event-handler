@@ -28,6 +28,9 @@ const tiEventManager = new EventEmitter2({
     wildcard: true,
     // the delimiter used to segment namespaces
     delimiter: '/',
+    // emit listener add/remove events
+    newListener: true,
+    removeListener: true,
 })
 
 module.exports = tiEventManager
